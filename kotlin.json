@@ -26,4 +26,7 @@
     "autoupdate": {
         "url": "https://github.com/JetBrains/kotlin/releases/download/v$version/kotlin-compiler-$version.zip"
     }
+    "hash": {
+        "url": "$url.sha256"
+    }
 }
